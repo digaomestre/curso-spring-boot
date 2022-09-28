@@ -30,6 +30,17 @@ public class Usuario implements Serializable{
 		this.email = email;
 		this.password = password;
 	}
+	
+	
+
+	public Usuario(Long id, String name, String email, String phone, String password) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.email = email;
+		this.phone = phone;
+		this.password = password;
+	}
 
 	public Long getId() {
 		return id;
